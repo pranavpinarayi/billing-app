@@ -1035,6 +1035,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  margin-bottom: 30px;
 }
 
 .no-gutters {
@@ -2469,6 +2470,7 @@ select.form-control-lg:not([size]):not([multiple]),
 
 .form-group {
   margin-bottom: 1rem;
+  margin-bottom: 30px;
 }
 
 .form-text {
@@ -12269,6 +12271,7 @@ fieldset[disabled][disabled] .has-success .form-control,
   background-color: rgba(76, 175, 80, 0.8);
   border-radius: .2rem;
 }
+.has-success .is-focused .form-control.is-valid:focus,
 
 .was-validated .has-success .is-focused .form-control:valid,
 .has-success .is-focused .form-control.is-valid,
@@ -12278,7 +12281,6 @@ fieldset[disabled][disabled] .has-success .form-control,
 }
 
 .was-validated .has-success .is-focused .form-control:valid:focus,
-.has-success .is-focused .form-control.is-valid:focus,
 .was-validated .has-success .is-focused .custom-select:valid:focus,
 .has-success .is-focused .custom-select.is-valid:focus {
   border-color: #4caf50;
@@ -13622,7 +13624,8 @@ select.form-control {
 .form-group {
   padding-bottom: 10px;
   position: relative;
-  margin: 8px 0 0;
+  margin: 30px 0 0;
+  margin-bottom: 30px;
 }
 
 .form-group .bmd-label-static {
@@ -17493,12 +17496,13 @@ label {
 }
 
 .card .card-body {
-  padding: 0.9375rem 20px;
+  padding: 30px;
   position: relative;
 }
 
 .card .card-body .form-group {
-  margin: 8px 0 0;
+  margin: 30px 0 0;
+  margin-bottom: 30px;
 }
 
 .card .card-header {
